@@ -4,6 +4,16 @@ import time
 
 
 class Working:
+    """
+    arguments:
+     - time: float, Total minutes you are working
+     - sleep: interval between mouse movement 
+     
+    Methods:
+        work(): execute the movement of mouse during the time with a 
+        interval of sleep. 
+        
+     """
     def __init__(self,time,  sleep=10):
         self.sleep = sleep
         #minutos 60*60
@@ -25,5 +35,5 @@ class Working:
             print(f"Quedan {totalus/60} minutos")
             
             
-matute = Working(2)
+matute = Working(time = 60)
 matute.work()
