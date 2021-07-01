@@ -4,3 +4,14 @@ This is a simple script that moves the mouse over a period of time, by default 6
 
 The objective is to make your employees think you are working. 
 
+def foo():
+    if not bar:
+        return True
+        
+      def foo():
+            if not bar:
+                return True
+   
+   `def foo():
+    if not bar:
+        return True`
