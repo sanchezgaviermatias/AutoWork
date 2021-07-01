@@ -5,10 +5,7 @@ This is a simple script that moves the mouse over a period of time, by default 6
 The objective is to make your employees think you are working. 
 
 
-
-matute = Working(time = 60)
-matute.work()
-
+### Example of Use
 
 ```
 matute = Working(time = 60)
