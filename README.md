@@ -10,5 +10,7 @@ matute = Working(time = 60)
 matute.work()
 
 
-`matute = Working(time = 60)
-matute.work()`
+```
+matute = Working(time = 60)
+matute.work()
+```
